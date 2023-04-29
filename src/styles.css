@@ -1,0 +1,43 @@
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,500,600|Poppins:400,500,600&display=swap");
+
+/*
+=============== 
+Global Styles
+===============
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+span {
+  font-family: "Poppins", sans-serif !important;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
